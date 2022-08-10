@@ -1,4 +1,4 @@
-// alert("hello")
+
 // mengambil nilai input dari user dengan menggunakan function
 function dataUser(){
     let name = document.getElementById("input-name").value
@@ -7,6 +7,7 @@ function dataUser(){
     let subject = document.getElementById("input-subject").value
     let message = document.getElementById("input-message").value
     
+    // jika ada bagian yang belum di isi maka tidak akan berjalan dengan sintak return dan alert akan memunculkan pop up di halaman web
     if (name == ""){
        return alert("Nama harus diisi")
     } else if(email == ""){
